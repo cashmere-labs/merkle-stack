@@ -72,6 +72,10 @@ First, clone the repository to your local machine:
 
 ### Deploying Contracts
 
+**Download Libraries:**
+  ```bash
+        forge install --no-git  transmissions11/solmate
+   ```
 **Compile Contracts:**
 
    Before deploying, compile your contracts:
