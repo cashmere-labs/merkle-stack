@@ -1,0 +1,8 @@
+.env
+
+#ignore files
+/node_modules
+data/chunks/*.json
+data/airdrop_raw/*.xlsx
+data/tree/*.json
+data/*.json

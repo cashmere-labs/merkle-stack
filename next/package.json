@@ -1,0 +1,50 @@
+{
+  "name": "next",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@rainbow-me/rainbowkit": "^2.0.2",
+    "@tanstack/react-query": "^5.0.5",
+    "@vercel/og": "^0.6.2",
+    "axios": "^1.6.7",
+    "chrome-aws-lambda": "^10.1.0",
+    "eslint-config-next": "^14.1.4",
+    "ethers": "^6.11.1",
+    "framer-motion": "^11.0.14",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.0.4-canary.4",
+    "next-api-og-image": "^4.3.0",
+    "next-share": "^0.27.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-share-kit": "^1.1.0",
+    "viem": "^2.8.5",
+    "wagmi": "^2.5.7"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@wagmi/cli": "latest",
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.2.0",
+    "supports-color": "^9.4.0",
+    "typescript": "^5.2.2",
+    "utf-8-validate": "^6.0.3"
+  }
+}

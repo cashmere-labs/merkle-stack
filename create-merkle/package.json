@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.6",
+    "@quicknode/sdk": "^2.2.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = [
+    "lib",
+    "node_modules",
+]
+remappings = [
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+    "hardhat/=node_modules/hardhat/",
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
